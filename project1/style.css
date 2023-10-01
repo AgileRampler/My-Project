@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    min-height:60vh;
+    max-width: 60vh;
+    background-image: url(images.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.counter{
+    
+    align-items: center;
+    text-align: center;
+    color: rgb(126, 126, 178);
+    padding: 6rem;
+
+    
+}
+h2{
+    padding: 2rem;
+
+}
+
+button{
+    background-color: purple;
+    border-radius: 120px    ;
+    padding: 12px 24px;
+    background-color: color-mix(in srgb, purple 60%, pink 40%);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+
+}
