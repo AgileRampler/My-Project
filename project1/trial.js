@@ -8,8 +8,8 @@ count = count + 1;
 }
 function save(){
     let countStr = count + "-" ;
-    countEl.innerText += countStr;
-    countStr = 0;
+    saveEl.innerText += countStr;
+    countEl.innerText = 0;
     count = 0;
 }
     
