@@ -1,20 +1,20 @@
-countEl = document.getElementById("count");
-saveEl  = document.getElementById("save");
-let count = 0;
+const countEl = document.getElementById("count-el")
+const incrementBtn = document.getElementById("increment")
+const saveBtn = document.getElementById("save-el")
+const entriesEl = document.getElementById("entries") 
+let count=0;
 
-function increment(){
-count = count + 1;
-    countEl.innerText=count;
-}
-function save(){
-    let countStr = count + "-" ;
-    saveEl.innerText += countStr;
-    countEl.innerText = 0;
-    count = 0;
-}
-    
-console.log("countEl")
+incrementBtn.addEventListener("click",function(){
 
+     count = count + 1 ;
+    countEl.innerHTML =count;
+})
 
+saveBtn.addEventListener("click",function(){
+   let countSave = count + "-" ;
+   entriesEl.innerText += countSave;
+   countEl.innerHTML = 0 ;
+   count = 0 ;
 
-
+   
+})
